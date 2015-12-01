@@ -1,0 +1,52 @@
+{
+    "name": "TUNER88/ICloudDeviceManager",
+    "description": "PHP library to locate and manage devices registered on iCloud",
+    "keywords": [
+        "Laravel",
+        "iDevice",
+        "locate",
+        "iCloud",
+        "iPhone",
+        "Apple",
+        "iPad",
+        "iPod",
+        "find",
+        "Mac"
+    ],
+    "homepage": "https://github.com/TUNER88/ICloudDeviceManager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TUNER88",
+            "email": "anton.pauli@gmail.com",
+            "homepage": "https://github.com/TUNER88",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TUNER88\\ICloudDeviceManager\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TUNER88\\ICloudDeviceManager\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
